@@ -1,0 +1,24 @@
+entity Measures {
+	temp Integer required,
+	soil Integer required,
+	light Integer required,
+	insertAt Instant required,
+}
+
+entity Devices {
+	title String required,
+    type Type required,
+    identification String,
+    active Boolean
+}
+
+enum Type {
+    SmartCossiol
+}
+
+relationship ManyToOne {
+	Measures{Devices(identification)} to Devices
+}
+relationship ManyToOne {
+	Devices{User(email)} to User
+}

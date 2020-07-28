@@ -1,0 +1,26 @@
+{
+  "backendApp": {
+    "devices": {
+      "home": {
+        "title": "Devices",
+        "createLabel": "Create a new Devices",
+        "createOrEditLabel": "Create or edit a Devices",
+        "notFound": "No Devices found"
+      },
+      "created": "A new Devices is created with identifier {{ param }}",
+      "updated": "A Devices is updated with identifier {{ param }}",
+      "deleted": "A Devices is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Devices {{ id }}?"
+      },
+      "detail": {
+        "title": "Devices"
+      },
+      "title": "Title",
+      "type": "Type",
+      "identification": "Identification",
+      "active": "Active",
+      "user": "User"
+    }
+  }
+}

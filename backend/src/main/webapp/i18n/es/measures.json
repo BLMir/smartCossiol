@@ -1,0 +1,26 @@
+{
+  "backendApp": {
+    "measures": {
+      "home": {
+        "title": "Measures",
+        "createLabel": "Crear nuevo Measures",
+        "createOrEditLabel": "Crear o editar Measures",
+        "notFound": "Ningún Measures encontrado"
+      },
+      "created": "Un nuevo Measures ha sido creado con el identificador {{ param }}",
+      "updated": "Un Measures ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Measures ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Measures {{ id }}?"
+      },
+      "detail": {
+        "title": "Measures"
+      },
+      "temp": "Temp",
+      "soil": "Soil",
+      "light": "Light",
+      "insertAt": "Insert At",
+      "devices": "Devices"
+    }
+  }
+}
